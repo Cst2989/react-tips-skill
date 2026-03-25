@@ -22,13 +22,13 @@ A Claude Code skill that guides you toward better React patterns while you code:
 Add the marketplace:
 
 ```
-/plugin marketplace add neciudan/react-tips-skill
+/plugin marketplace add Cst2989/react-tips-skill
 ```
 
 Install the plugin:
 
 ```
-/plugin install react-tips@neciudan-react-tips
+/plugin install react-tips@cst2989-react-tips
 ```
 
 ## Usage
