@@ -1,0 +1,9 @@
+{
+  "name": "react-tips",
+  "description": "10 high-impact React patterns and anti-patterns for state management, performance, hooks, and component design",
+  "version": "1.0.0",
+  "author": {
+    "name": "Dan Neciu",
+    "url": "https://neciudan.dev"
+  }
+}
