@@ -28,7 +28,7 @@ Add the marketplace:
 Install the plugin:
 
 ```
-/plugin install react-tips@cst2989-react-tips
+/plugin install react-tips@neciudan.dev
 ```
 
 ## Usage
