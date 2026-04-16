@@ -8,12 +8,12 @@
   "plugins": [
     {
       "name": "react-tips",
-      "description": "10 high-impact React patterns and anti-patterns for state management, performance, hooks, and component design",
+      "description": "React patterns and anti-patterns for state management, performance, hooks, component design, and avoiding unnecessary useEffects",
       "source": {
         "source": "github",
         "repo": "Cst2989/react-tips-skill"
       },
-      "version": "1.0.0"
+      "version": "1.1.0"
     }
   ]
 }
