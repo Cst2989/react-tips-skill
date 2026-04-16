@@ -1,6 +1,9 @@
 {
   "name": "neciudan.dev",
-  "owner": "Dan Neciu",
+  "owner": {
+    "name": "Dan Neciu",
+    "email": "dan.neciu@rover.com"
+  },
   "description": "React patterns and anti-patterns from the Daily React newsletter",
   "plugins": [
     {
