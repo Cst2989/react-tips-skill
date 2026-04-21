@@ -1,6 +1,6 @@
 # React Tips - Claude Code Plugin
 
-High-impact React patterns and anti-patterns for writing better components. Extracted from the [Daily React](https://neciudan.dev/programs/daily-react) newsletter by [Dan Neciu](https://neciudan.dev).
+High-impact React and JavaScript patterns for writing better code. Extracted from the [Daily React](https://neciudan.dev/programs/daily-react) newsletter by [Dan Neciu](https://neciudan.dev).
 
 ## What's Inside
 
@@ -25,6 +25,12 @@ A decision tree that stops the AI from reaching for `useEffect` when a better al
 
 Full article: [You really, really, really don't need an effect! I swear!](https://neciudan.dev/you-really-really-dont-need-an-effect)
 
+### modern-js
+
+A lookup table of ES2025 and ES2026 APIs that models trained before 2025 don't reach for by default: Iterator helpers, Set methods, `Temporal`, `using`, `Promise.try`, `Error.isError`, `Math.sumPrecise`, `Map.getOrInsert`, native JSON imports, `import defer`, and more. The skill forces Claude to check output against modern alternatives before finalizing code.
+
+Full article: [What's actually new in JavaScript (and what's coming next)](https://neciudan.dev/whats-new-in-javascript)
+
 ## Install
 
 Add the marketplace:
@@ -46,12 +52,14 @@ Once installed, the skills are available in Claude Code. They activate automatic
 ```
 /react-tips:react-tips
 /react-tips:no-unnecessary-effects
+/react-tips:modern-js
 ```
 
 ## Read More
 
 - [10 React tips I wish someone had told me before I mass-produced bugs](https://neciudan.dev/10-react-tips-that-actually-matter)
 - [You really, really, really don't need an effect! I swear!](https://neciudan.dev/you-really-really-dont-need-an-effect)
+- [What's actually new in JavaScript (and what's coming next)](https://neciudan.dev/whats-new-in-javascript)
 
 ## License
 
